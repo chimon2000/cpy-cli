@@ -12,7 +12,7 @@ const cli = meow(`
 	  --parents            Preserve path structure
 	  --cwd=<dir>          Working directory for source files
 	  --rename=<filename>  Rename all <source> filenames to <filename>
-	  --nodir  Do not match directories, only files
+	  --nodir              Do not match directories, only files
 
 	<source> can contain globs if quoted
 
